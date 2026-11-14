@@ -102,6 +102,18 @@ Elenco completo con i prezzi: [`documentazione/BOM.md`](documentazione/BOM.md)
 Entrambe attraversano la carcassa in un tubo ceramico, così la termocoppia non
 tocca mai il metallo.
 
+### Dentro la scatola
+
+| Vista d'insieme | Dettaglio |
+|---|---|
+| ![Interno della scatola del controller](documentazione/foto/interno.jpg) | ![SSR e cablaggio](documentazione/foto/interno-dettaglio.jpg) |
+
+I due SSR-40DA sono montati sui dissipatori, con la ventola da 12 V sopra che
+soffia attraverso la scatola. Il lato in alternata (morsetti 1-2, in alto) porta
+la fase alle resistenze. Gli ingressi in continua (morsetti 3-4, in basso) vanno
+al WT32-SC01, che si vede in fondo, di spalle, con i cavetti sul connettore di
+espansione. La scatola è stampata in 3D, con feritoie di ventilazione sui lati.
+
 ### Collegamenti in bassa tensione (connettore di espansione del WT32-SC01)
 
 | WT32-SC01 | Va a | Note |

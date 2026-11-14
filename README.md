@@ -102,6 +102,18 @@ Full list with prices: [`documentazione/BOM.md`](documentazione/BOM.md) (about â
 Both go through the oven shell in ceramic tubes, so the thermocouple never
 touches the metal.
 
+### Inside the controller box
+
+| Overview | Detail |
+|---|---|
+| ![Inside the controller box](documentazione/foto/interno.jpg) | ![SSRs and wiring](documentazione/foto/interno-dettaglio.jpg) |
+
+The two SSR-40DA sit on their heatsinks, with the 12 V fan above them blowing
+across the box. The AC side (terminals 1-2, top) carries the phase to the
+elements; the DC inputs (terminals 3-4, bottom) go to the WT32-SC01, whose back
+is visible at the bottom with the jumper wires on its expansion connector. The
+case is 3D printed, with ventilation slots on the sides.
+
 ### Low-voltage wiring (WT32-SC01 expansion connector)
 
 | WT32-SC01 | Goes to | Notes |
