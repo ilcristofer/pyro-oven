@@ -1,0 +1,23 @@
+# Build PlatformIO
+firmware/oven_controller/.pio/
+
+# Credenziali WiFi locali (modello: wifi_secrets.example.h)
+firmware/oven_controller/src/wifi_secrets.h
+
+# Binari firmware: pesanti (~1,5 MB) e ricostruibili dal sorgente.
+# Per un rollback si ricompila il commit corrispondente.
+*.bin
+
+# Telemetria: le sessioni registrate dal logger restano locali
+telemetria/*.csv
+telemetria/logger.out
+
+# Artefatto Windows
+nul
+
+# Archivio dei font: il contenuto e' gia' versionato estratto in
+# documentazione/Montserrat/
+documentazione/Montserrat.zip
+
+# Output del logger lanciato con nohup
+telemetria/logger_out.txt
